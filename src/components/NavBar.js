@@ -14,8 +14,8 @@ const NavBar = () => {
         <div className='w-6 h-6 pt-3.5 md:pt-3'>
           <img src={logo} alt='' />
         </div>
-        <div className='hidden md:block border-b-2 border-[#9147ff] py-3'>
-          <p className='text-[#9147ff] font-semibold'>Explore</p>
+        <div className='hidden md:block border-b-2 border-[#9147ff] py-3 cursor-pointer'>
+          <p className='text-black hover:text-[#9147ff] font-semibold'>Explore</p>
         </div>
         <div className='block md:hidden px-1 py-1.5 border-b-2 border-[#9147ff] py-4'>
           <SiDatabricks size={20} />
