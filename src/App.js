@@ -1,5 +1,6 @@
 import NavBar from './components/NavBar';
 import SideBar from './components/SideBar';
+import Main from './components/Main';
 
 function App() {
   return (
@@ -9,6 +10,8 @@ function App() {
       <NavBar />
       {/* SideBar */}
       <SideBar />
+      {/* Main */}
+      <Main /> 
       </div>
     </div>
   );

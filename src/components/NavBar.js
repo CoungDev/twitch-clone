@@ -25,7 +25,7 @@ const NavBar = () => {
         </button>
       </div>
 
-      {/* Midle side */}
+      {/* Middle side */}
       <div className='w-[25rem] max-w-md h-full flex justify-end md:justify-center items-center gap-[2px]'>
         <input
           className='hidden md:block lg:w-full md:w-10/12 px-[10px] py-[5px] focus:outline-none bg-[#ebebeb] rounded-l-md hover:border-2 focus:border-2 focus:border-[#9147ff]'
