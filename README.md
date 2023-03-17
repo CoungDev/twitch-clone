@@ -1,4 +1,4 @@
 # Twitch-LandingPage-clone
 
 ## Stack
-  React + Taiwind
+  React + Tailwind
