@@ -24,7 +24,7 @@ const SideBar = () => {
         <CgCamera size={20} />
       </label>
       {creatorIcon.map((item) => (
-        <img src={item.img} alt={item.name} className={item.css} />
+        <img key={Math.random() * (100 - 1) + 1} src={item.img} alt={item.name} className={item.css} />
       ))}
     </div>
   );

@@ -8,7 +8,7 @@ import { MdOutlinePerson2 } from 'react-icons/md';
 import { SiDatabricks } from 'react-icons/si';
 const NavBar = () => {
   return (
-    <div className='flex items-center justify-between fixed top-0 w-screen bg-white shadow h-12'>
+    <div className='flex items-center justify-between fixed top-0 w-screen bg-white shadow h-12 z-50'>
       {/* Left side */}
       <div className='flex justify-start ml-3 mr-6 gap-5'>
         <div className='w-6 h-6 pt-3.5 md:pt-3'>
